@@ -1,7 +1,3 @@
+# 공부하자
 
-# 공부하자   
-
-### 📖 Interest
-
-### 📕 Latest Blog Posts   
-
+### 📕 Latest Blog Posts

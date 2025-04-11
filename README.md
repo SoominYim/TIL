@@ -1,1 +1,11 @@
-# 공부하자
+
+### Hi there 👋   
+
+### 📖   Interest   
+     - FrontEnd
+     - BackEnd
+     - ...  
+
+
+### 📕 Latest Blog Posts   
+

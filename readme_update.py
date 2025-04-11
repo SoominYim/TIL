@@ -8,15 +8,9 @@ tistory_uri="https://s-o-o-min.tistory.com/"
 feed = feedparser.parse(tistory_uri+"/rss")
 
 markdown_text = """
-### Hi there 👋   
+# 공부하자
 
-### 📖   Interest   
-     - FrontEnd
-     - BackEnd
-     - ...  
-
-
-### 📕 Latest Blog Posts   
+### 📕 Latest Blog Posts
 
 """ # list of blog posts will be appended here
 

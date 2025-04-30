@@ -31,9 +31,6 @@ onChange={(e) => {
 }}  
 ```  
 * **변경된 부분 설명**  
-   * if (selectedComment) 조건문으로 selectedComment가 존재할 때만 업데이트  
-   * 널 병합 연산자(??)를 사용해 postId가 undefined일 경우 null로 설정  
-   * ...selectedComment로 기존 속성을 유지하면서 변경된 속성만 덮어씀  
 ## ✨ **결과**<br>  
 * TypeScript 타입 오류 해결  
 * Comment 인터페이스 요구사항 충족  

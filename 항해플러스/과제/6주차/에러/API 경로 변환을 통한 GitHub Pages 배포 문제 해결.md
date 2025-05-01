@@ -30,7 +30,7 @@ const fetchData = async () => {
   
 ## **✅ 2. 해결 방법**<br>  
 ### **👉 Vite 플러그인을 사용한 API 경로 변환**<br>  
-빌드 시 코드 내의 모든 `/api/` 경로를 `https://dummyjson.com/`으로 변환하는 플러그인을 구현했습니다.  
+빌드 시 코드 내의 모든 `/api/` 경로를 `https://dummyjson.com/`으로 변환하는 플러그인을 구현  
   
 ### **vite.config.ts**<br>  
 ```typescript  

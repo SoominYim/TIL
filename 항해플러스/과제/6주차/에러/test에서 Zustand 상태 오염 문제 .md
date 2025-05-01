@@ -145,8 +145,8 @@ it("새 게시물 추가를 허용합니다", async () => {
 ```  
   
 ### **👉 기존 라이브러리 사용하기**<br>  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/SoominYim/images/23b6f9ef-f3ad-4883-a029-5f6df48d006c-image.png)  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/SoominYim/images/f8471469-bf95-4e92-802a-b4d7e83c3c31-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/SoominYim/images/d9f23582-771c-4c52-b71d-712e7e26a697-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/SoominYim/images/eb4fc9df-5d5b-4583-b152-5e017dc7c078-image.png)  
   
 ## ✨ **결과**<br>  
 * `setSearchQuery("")` 초기화 코드 추가로 테스트 간 상태 오염이 방지됨.  

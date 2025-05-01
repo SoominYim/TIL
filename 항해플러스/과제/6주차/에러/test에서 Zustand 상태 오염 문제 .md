@@ -144,6 +144,10 @@ it("새 게시물 추가를 허용합니다", async () => {
 })  
 ```  
   
+### **👉 기존 라이브러리 사용하기**<br>  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/SoominYim/images/23b6f9ef-f3ad-4883-a029-5f6df48d006c-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/SoominYim/images/f8471469-bf95-4e92-802a-b4d7e83c3c31-image.png)  
+  
 ## ✨ **결과**<br>  
 * `setSearchQuery("")` 초기화 코드 추가로 테스트 간 상태 오염이 방지됨.  
 * 누락된 `renderPostsManager()`호출을 추가하여 DOM 요소에 정상적으로 접근할 수 있게 됨.  

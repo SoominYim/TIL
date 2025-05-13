@@ -184,7 +184,7 @@
    beforeAll(() => { server.listen(); });  
 ```  
   
-1. `handlers.ts`에서 API 엔드포인트별 모의 응답 정의  
+2. `handlers.ts`에서 API 엔드포인트별 모의 응답 정의  
 ```typescript  
    /* src/__mocks__/handlers.ts */
    // 각 HTTP 메서드별 응답 핸들러 등록
@@ -195,7 +195,7 @@
    ];  
 ```  
   
-1. `handlersUtils.ts`에서 테스트별 독립적인 상태 관리  
+3. `handlersUtils.ts`에서 테스트별 독립적인 상태 관리  
 ```typescript  
    /* src/__mocks__/handlersUtils.ts */
    // 테스트마다 고유한 데이터 상태 제공
@@ -212,7 +212,7 @@
    beforeAll(() => { server.listen(); });  
 ```  
   
-1. 각 테스트에서 독립적인 상태 설정  
+2. 각 테스트에서 독립적인 상태 설정  
 ```typescript  
    /* src/__tests__/hooks/medium.useEventOperations.spec.ts */
    // 각 테스트마다 독립적인 데이터로 환경 초기화
@@ -221,7 +221,7 @@
    });  
 ```  
   
-1. 훅 렌더링 및 기능 테스트  
+3. 훅 렌더링 및 기능 테스트  
 ```typescript  
    /* src/__tests__/hooks/medium.useEventOperations.spec.ts */
    // 훅 렌더링 후 결과 검증
@@ -233,7 +233,7 @@
    });  
 ```  
   
-1. 테스트 종료 시 정리  
+4. 테스트 종료 시 정리  
 ```typescript  
    /* setupTests.ts */
    // 각 테스트 후 서버 핸들러 초기화

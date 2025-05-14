@@ -1,7 +1,7 @@
 ## **문제 상황**<br>  
 `Vitest Extention`과 `React Testing Library`로 Hook 테스트 시 다음 오류 발생:  
 > `act(...) is not supported in production builds of React.`  
-![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/SoominYim/images/0ac10d38-637e-4325-89f6-bbb07c925299-image.png)  
+![IMAGE](https://raw.githubusercontent.com/nogi-bot/resources/main/SoominYim/images/658075a8-ae08-4b53-ab74-9447f7364212-image.png)  
   
 ## **원인**<br>  
 * React가 프로덕션 모드로 동작할 때 발생하는 문제  

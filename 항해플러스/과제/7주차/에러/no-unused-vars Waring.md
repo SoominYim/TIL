@@ -1,7 +1,5 @@
 ## 🚨 문제 상황<br>  
 * **CI/CD 파이프라인에서 빌드 실패 발생**  
-   * `ESLint`의 **no-unused-vars** 규칙으로 인해 경고(warn)가 발생하고, 이를 CI 환경에서 오류로 간주하여 빌드를 중단.  
-   * 특히, **React 컴포넌트 Props 인터페이스**의 함수 타입 정의에서 사용되지 않는 매개변수로 인해 발생한 문제 (예: `formatDate: (currentDate: Date, day: number) => string;` 에서 `currentDate`, `day` 등).  
 ---  
 ## 🛠 원인<br>  
 1. **ESLint 설정 부족**  

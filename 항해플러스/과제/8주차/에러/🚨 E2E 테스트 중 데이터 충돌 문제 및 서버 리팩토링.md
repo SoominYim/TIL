@@ -146,8 +146,16 @@ export default defineConfig({
   ],
 }  
 ```  
+## 6. package.json설정<br>  
+```typescript  
+"scripts": {
+    // 추가
+    "server:watch": "node --watch server_e2e.js",
+    ...
+  },  
+```  
 ---  
-## 6. 효과 및 정리<br>  
+## 7. 효과 및 정리<br>  
 |항목|개선 전|개선 후|  
 |:---|:---|:---|
 |상태 초기화|수동 삭제 필요|자동 초기화 API 제공|  
